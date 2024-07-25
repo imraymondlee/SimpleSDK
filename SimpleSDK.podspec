@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.7'
   s.requires_arc = true
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.7' }
-  s.vendored_frameworks = 'framework/SimpleSDK.xcframework'
+  s.vendored_frameworks = 'frameworks/SimpleSDK.xcframework'
 end
